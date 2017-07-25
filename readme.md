@@ -6,12 +6,14 @@ We use coin here because coins are widely used. It's everywhere, if not, use the
 这里生成的密码词典针对的是硬币, 毕竟硬币随处可见. 连硬币也没有? 随机看秒表的奇偶.   
 
 # Why
-Combined words in Chinese are like English word. But single word in Chinese is like a-z. For example:
+Combined words in Chinese are like English word. But single word in Chinese is like a-z. For example:  
+
 |beijing|bei / jing|
 |---|---|
 |shanghai|shang / hai|
 |brainwashing|brain / washing|
 |kungfu|kong / fu|
+
 So single char [wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/chinese_simplified.txt) used in Bitcoin is not practical.   
 
 # Usage 使用方法
@@ -42,7 +44,7 @@ python3 generate_wordlist.py
 ```
 
 
-#Features 特点
+# Features 特点
 * Source: [Lexicon of Common Words in Contemporary Chinese](https://gist.github.com/indiejoseph/eae09c673460aa0b56db).
 * Principle: Filter on disyllable only. Order by frequency rank. And limit 4<=len(word)<=8.
 * Memo tips: One-to-many relationship for `pinyin - hanzi` by looping through the entire source instantly.
