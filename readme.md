@@ -105,7 +105,8 @@ python3 generate_wordlist.py
 还可以参考这个项目: [chinese-diceware](https://github.com/cfbao/chinese-diceware)
 
 # Name 名字
-Dice includes coin, according to the Wikipedia.
+Dice includes coin, according to the Wikipedia.   
+<hr>
 使用通用的名字diceware而不用coinware. 根据维基百科所说, 骰子包括多面骰子, 也包括2面骰子即硬币. 
 
 # Example 例子
