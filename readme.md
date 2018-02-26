@@ -16,6 +16,11 @@ Combined words in Chinese are like English word. But single word in Chinese is l
 
 So single char [wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/chinese_simplified.txt) used in Bitcoin is not practical.   
 
+# Warning 警告
+Set an alarm MONTHLY to remind you RECITE your password in case you may forget it.  
+记得设置闹钟每月提醒自己默背设置好的强密码，否则一定会忘记并丢失资料的。  
+
+
 # Usage 使用方法
 get password:  
 获取密码:
