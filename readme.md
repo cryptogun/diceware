@@ -74,6 +74,7 @@ python3 generate_wordlist.py
 - `Pinyin`s (that are hard to associate, hard to memo, hard to match) are not fully reviewed.
 - `Pseudo`-random is not `true` random. Use coins as much as possible.
 <hr>
+
 * 未排除部分难联想/难记/难匹配的拼音.
 * 伪随机毕竟不是真随机, 即使用到了`urandom`. 比如我尝试了100多次, `实习` `yindu`在下面的例子中各出现了2次; `春联`出现在同一密码中. 这几率都是8x100x(1/8192)^2. 所以还是推荐用硬币.
 
